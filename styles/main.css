@@ -1,0 +1,109 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input {
+  padding: 1em;
+  border: 1px solid #ff9800;
+  border-radius: 0.5em;
+  outline: none;
+  color: #ff9800;
+  margin: 0 0.5em;
+  font-weight: bold;
+  letter-spacing: .3em;
+}
+
+#functions-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+button {
+  cursor: pointer;
+  padding: 1em 3em;
+  background: #db8b12;
+  border: none;
+  border-radius: 0.5em;
+  margin: 1em;
+  -webkit-transition: background .2s ease;
+  transition: background .2s ease;
+}
+
+button:hover {
+  background: #ff9800;
+}
+
+button:focus {
+  background: #fffb00;
+}
+
+.result-div {
+  margin-top: 5em;
+}
+
+#result-span {
+  color: #ff9800;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 8em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*# sourceMappingURL=main.css.map */

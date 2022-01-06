@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/main.css">
+  <title>typescript calculator</title>
+</head>
+<body>
+  
+  <div class="container">
+
+    <div class="head">
+      <div class="input-a">
+        <input id='input-a' type="number" class="input" />
+      </div>
+
+      <div id="functions-btn">
+        <button id="multiply">x</button>
+        <button id="addition">+</button>
+        <button id="subtraction">-</button>
+        <button id="division">/</button>
+      </div>
+
+      <div class="input-b">
+        <input id='input-b' type="number" class="input" />
+      </div>
+
+      <button id="equal">=</button>
+    </div>
+
+    <div class="result-div">
+      <span id="result-span">Result : <span id="strong"></span></span>
+    </div>
+
+  </div>
+
+  <script src="../build/index.js"></script>
+  <script src="../build/function.js"></script>
+</body>
+</html>
