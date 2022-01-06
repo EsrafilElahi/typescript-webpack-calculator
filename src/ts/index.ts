@@ -36,28 +36,44 @@ btnDiv.addEventListener('click', function (): void {
 
 btnEqual.addEventListener('click', function (): void {
   if(operator === 'multiply') {
-    Multiply(Number(inputA.value), Number(inputB.value));
+    let mount = {
+      val1: Number(inputA?.value), 
+      val2: Number(inputB?.value)
+    }
+    Multiply(mount);
     inputA.value = '';
     inputB.value = '';
     console.log('final :', final);
     clearFinal()
   }
   if(operator === 'subtraction') {
-    Subtraction(Number(inputA.value), Number(inputB.value));
+    let mount = {
+      val1: Number(inputA?.value), 
+      val2: Number(inputB?.value)
+    }
+    Subtraction(mount);
     inputA.value = '';
     inputB.value = '';
     console.log('final :', final);
     clearFinal()
   }
   if(operator === 'addition') {
-    Addition(Number(inputA.value), Number(inputB.value));
+    let mount = {
+      val1: Number(inputA?.value), 
+      val2: Number(inputB?.value)
+    }
+    Addition(mount);
     inputA.value = '';
     inputB.value = '';
     console.log('final :', final);
     clearFinal()
   }
   if(operator === 'division') {
-    Division(Number(inputA.value), Number(inputB.value));
+    let mount = {
+      val1: Number(inputA?.value), 
+      val2: Number(inputB?.value)
+    }
+    Division(mount);
     inputA.value = '';
     inputB.value = '';
     console.log('final :', final);

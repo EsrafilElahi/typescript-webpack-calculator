@@ -1,23 +1,28 @@
 
+interface values {
+  val1: number,
+  val2: number
+}
+
 export let final:number | null;
 export const clearFinal = (): void => {
   final = null;
 }
 
-export const Multiply = (val1: number, val2: number):void => {
-  final = val1 * val2
+export const Multiply = (mount: values):void => {
+  final =  mount.val1 * mount.val2
 }
 
-export const Subtraction = (val1: number, val2: number) => {
-  final = val1 - val2
+export const Subtraction = (mount: values) => {
+  final =  mount.val1 - mount.val2
 }
 
-export const Addition = (val1: number, val2: number) => {
-  final = val1 + val2
+export const Addition = (mount: values) => {
+  final =  mount.val1 + mount.val2
 }
 
-export const Division = (val1: number, val2: number) => {
-  final = val1 / val2
+export const Division = (mount: values) => {
+  final =  mount.val1 / mount.val2
 }
 
 
