@@ -75,9 +75,6 @@
     // "preserveSymlinks": true,                         /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
 
-    "angularCompilerOptions": {
-      "strictNullChecks": false,
-    },
 
     /* Type Checking */
     "strict": false,                                      /* Enable all strict type-checking options. */
